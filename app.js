@@ -211,3 +211,4 @@ Student.prototype.scopeArrow = () => console.log(this);
 // When joe.scope is invoked, "this" will return undefined because it is not defined in the code.
 // 3. Explain why "this" is different when an arrow function is used.
 // 'This' is different because arow functions do not have their own bindings to this. 
+  
